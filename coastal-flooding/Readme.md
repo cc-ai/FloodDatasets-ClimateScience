@@ -18,4 +18,4 @@ Sea level projections used in coastal flood simulation are calculated by CMIP5 r
 
 # Code
 
-`coastalflood_name_construction.py` : This code generated the name of the coastal maps for a given coordination. There are many of them ;)
+`coastalflood_name_construction.py` : This code generate the name of the coastal maps for a given coordination. There are many of them ;)
