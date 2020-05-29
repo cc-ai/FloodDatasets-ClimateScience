@@ -10,6 +10,11 @@ The simulated coastal flood maps are provided in `/network/tmp1/ccai/climate-dat
 
 Same as North america coastal maps + Lower(5th percentile) and Upper(95th percentile) bounds on sea level projection. Located in `/network/tmp1/ccai/climate-data/coastalflood`.
 
+## CoastalDEM
+
+The CoastalDEM(90m version) provided by the climate central is located in `/network/tmp1/ccai/climate-data/CoastalDEM`. Note that the maps used in [climate central](https://coastal.climatecentral.org/) are produced by CoastalDEM (10m version). Main paper:
+Kulp, S., Strauss, B. 2019. New elevation data triple estimates of global vulnerability to sea-level rise and coastal flooding https://www.nature.com/articles/s41467-019-12808-z. 
+
 ## Sea level projections 
 
 Sea level projections used in coastal flood simulation are calculated by CMIP5 runs. More details in Kopp, R. E. et al. Probabilistic 21st and 22nd century sea-level projections at a global network of tide-gauge sites. Earth’s. Future 2, 383–406 (2014). https://doi.org/10.1002/2014EF000239. The projections are available in `/network/tmp1/ccai/climate-data/sea-level-projection`
