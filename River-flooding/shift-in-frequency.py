@@ -5,28 +5,28 @@ import netCDF4
 import numpy as np
 
 
-filename = 'C:\\Users\\sabzcenter\\Desktop\\Masterworks\\mila\\alfieri maps\\alfieri\\returnPeriodShift_HELIX_dis_rcp85_r1_statistics.nc';
+filename = 'C:\\....\\mila\\alfieri maps\\alfieri\\returnPeriodShift_HELIX_dis_rcp85_r1_statistics.nc';
 rps1 = netCDF4.Dataset(filename,"r")
 baseline_rp_shift1 = np.array(rps1.variables["baseline_rp_shift"])
 baseline_rp = np.array(rps1.variables["baseline_rp"])
 lat=np.array(rps1.variables["lat"])
 lon=np.array(rps1.variables["lon"])
-filename2 = 'C:\\Users\\sabzcenter\\Desktop\\Masterworks\\mila\\alfieri maps\\alfieri\\returnPeriodShift_HELIX_dis_rcp85_r2_statistics.nc';
+filename2 = 'C:\\....\\mila\\alfieri maps\\alfieri\\returnPeriodShift_HELIX_dis_rcp85_r2_statistics.nc';
 rps2 = netCDF4.Dataset(filename2,"r")
 baseline_rp_shift2 = np.array(rps2.variables["baseline_rp_shift"])
-filename3 = 'C:\\Users\\sabzcenter\\Desktop\\Masterworks\\mila\\alfieri maps\\alfieri\\returnPeriodShift_HELIX_dis_rcp85_r3_statistics.nc';
+filename3 = 'C:\\....\\mila\\alfieri maps\\alfieri\\returnPeriodShift_HELIX_dis_rcp85_r3_statistics.nc';
 rps3 = netCDF4.Dataset(filename3,"r")
 baseline_rp_shift3= np.array(rps3.variables["baseline_rp_shift"])
-filename4 = 'C:\\Users\\sabzcenter\\Desktop\\Masterworks\\mila\\alfieri maps\\alfieri\\returnPeriodShift_HELIX_dis_rcp85_r4_statistics.nc';
+filename4 = 'C:\\....\\mila\\alfieri maps\\alfieri\\returnPeriodShift_HELIX_dis_rcp85_r4_statistics.nc';
 rps4 = netCDF4.Dataset(filename4,"r")
 baseline_rp_shift4 = np.array(rps4.variables["baseline_rp_shift"])
-filename5 = 'C:\\Users\\sabzcenter\\Desktop\\Masterworks\\mila\\alfieri maps\\alfieri\\returnPeriodShift_HELIX_dis_rcp85_r5_statistics.nc';
+filename5 = 'C:\\....\\mila\\alfieri maps\\alfieri\\returnPeriodShift_HELIX_dis_rcp85_r5_statistics.nc';
 rps5 = netCDF4.Dataset(filename5,"r")
 baseline_rp_shift5 = np.array(rps5.variables["baseline_rp_shift"])
-filename6 = 'C:\\Users\\sabzcenter\\Desktop\\Masterworks\\mila\\alfieri maps\\alfieri\\returnPeriodShift_HELIX_dis_rcp85_r6_statistics.nc';
+filename6 = 'C:\\....\\mila\\alfieri maps\\alfieri\\returnPeriodShift_HELIX_dis_rcp85_r6_statistics.nc';
 rps6 = netCDF4.Dataset(filename6,"r")
 baseline_rp_shift6 = np.array(rps6.variables["baseline_rp_shift"])
-filename7 = 'C:\\Users\\sabzcenter\\Desktop\\Masterworks\\mila\\alfieri maps\\alfieri\\returnPeriodShift_HELIX_dis_rcp85_r7_statistics.nc';
+filename7 = 'C:\\....\\mila\\alfieri maps\\alfieri\\returnPeriodShift_HELIX_dis_rcp85_r7_statistics.nc';
 rps7 = netCDF4.Dataset(filename7,"r")
 baseline_rp_shift7 = np.array(rps7.variables["baseline_rp_shift"])
 
