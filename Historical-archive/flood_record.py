@@ -10,7 +10,7 @@
 import csv
 import pandas as pd
 import numpy as np
-filename = 'C:\\Users\\sabzcenter\\Desktop\\Masterworks\\mila\\FloodArchive.xlsx';
+filename = 'C:....\\mila\\FloodArchive.xlsx';##directory
 
 fopen=pd.read_excel(filename)
 
