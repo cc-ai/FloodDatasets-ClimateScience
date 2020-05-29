@@ -12,7 +12,7 @@ Same as North america coastal maps + Lower(5th percentile) and Upper(95th percen
 
 ## CoastalDEM
 
-The CoastalDEM(90m version) provided by the climate central is located in `/network/tmp1/ccai/climate-data/CoastalDEM`. Note that the maps used in [climate central](https://coastal.climatecentral.org/) are produced by CoastalDEM (10m version). Main paper:
+The CoastalDEM(90m version) provided by the climate central is located in `/network/tmp1/ccai/climate-data/CoastalDEM`. Note that the maps used in [climate central](https://coastal.climatecentral.org/) are produced by CoastalDEM (30m version). Main paper:
 Kulp, S., Strauss, B. 2019. New elevation data triple estimates of global vulnerability to sea-level rise and coastal flooding https://www.nature.com/articles/s41467-019-12808-z. 
 
 ## Sea level projections 
