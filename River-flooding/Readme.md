@@ -46,7 +46,7 @@ rp_shifted=baseline_rp_shift1[1,2,:,:]
 ```
 This gives the global map of the new return period in the warming level 2 degree for floods with return period 50.
 
-You can visualize this maps accordingly : 
+You can visualize this map accordingly : 
 
 ```clojure
 
@@ -56,7 +56,6 @@ plt.colorbar()
 plt.clim(0, 40);
 
 ```
-
 
 
 
