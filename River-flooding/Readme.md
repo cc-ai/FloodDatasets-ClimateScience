@@ -6,6 +6,8 @@ This folder contain the datasets and codes to read return periods data.
 
 Flood inundation maps are simulated by ListFlood model in Dottori, F., P. Salamon, A. Bianchi, L. Alfieri, F. A. Hirpa, and L. Feyen (2016), Development and evaluation of a framework for global flood hazard mapping, Adv. Water Resour., 94, 87–102, https://doi:10.1016/j.advwatres.2016.05.002. All return periods can be found [here](https://data.jrc.ec.europa.eu/collection/floods) and also in `network/tmp1/ccai/climate-data/river-flooding/flood-maps`. Available in 900-m resolution globally and 100-m in Europe.
 
+The Geotiff files pixels have values >0 and pixels that are not flooded are denoted by NaN.
+
 ## Return period maps
 
 Future return periods of the corresponding flood inundation maps calculated by the models presented in Alfieri, L., Bisselink, B., Dottori, F., Naumann, G., de Roo, A., Salamon, P., et al. (2017). Global projections of river flood risk in a warmer world.
