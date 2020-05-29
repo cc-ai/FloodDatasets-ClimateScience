@@ -6,7 +6,7 @@ This file contains links to the generated coastal flood maps, sea level projecti
 
 The simulated coastal flood maps are provided in `/network/tmp1/ccai/climate-data/coastalflood_NorthAmerica`. It contains inundation maps in year 2050 and 2100 under RCP 2.6 (extreme cut policy) and RCP 8.5 (business as usual).
 
-Note:The geotiff file pixels have values >=0. When somewhere is not flooded it is indicated by value 0. For the visualization purposes, the pixels with 0 values as well as pixels inside the water bodies should be eliminated by the frontend developers. The 0 could have been replaced with NaN which would make the visualization easier while would increase the files size. Due to current storage limits(2020/5), we should have kept the coastal flood data around 10GB so pixels not flooded are denoted by 0.
+Note:The geotiff file pixels have values >=0. When somewhere is not flooded it is indicated by value 0. For the visualization purposes, the pixels with 0 values as well as pixels inside the water bodies should be eliminated by the frontend developers. The 0 could have been replaced with NaN which would make the visualization easier while would increase the files size. Due to current storage limits(2020/5), we should have kept the coastal flood data around 10GB so pixels that are not flooded are denoted by 0.
 
 ## Coastal flood maps with uncertainty (need to be updated)
 
